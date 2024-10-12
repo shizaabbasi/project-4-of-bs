@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color:antiquewhite;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background: #03265a;
+   
+}
+.wrapper{
+    max-width: 1200px;
+}
+.wrapper  .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.carousel img{
+    margin-left: 17px;
+    height: 350px;
+   align-items: center;
+   justify-content: center;
+    width: calc(100%);
+}
